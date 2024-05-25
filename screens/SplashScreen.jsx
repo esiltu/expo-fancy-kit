@@ -1,5 +1,5 @@
 import { SafeAreaView, StyleSheet, Text, View, Image } from 'react-native'
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import LottieView from 'lottie-react-native';
 import { useFonts } from 'expo-font';
 
@@ -18,11 +18,11 @@ export default function SplashScreen() {
         <SafeAreaView style={styles.container}>
             <View>
                 <Image source={require('../assets/animation/shade-one.png')} style={styles.imageStyle} />
-                <Image source={require('../assets/animation/shade-two.png')} style={styles.imageStyleSecond} />
+                <Image source={require('../assets/animation/shadow-two.png')} style={styles.imageStyleSecond} />
             </View>
             <View style={styles.midContainer}>
                 <Text style={styles.midContainerTxt}>Welcome to Fancy UI Kit! 👋</Text>
-                <Text style={styles.midContainerSecondTxt}>Get started and explore quick 😎</Text>
+                <Text style={styles.midContainerSecondTxt}>Get started and explore quick 🍔🍟</Text>
                 <LottieView
                     autoPlay
                     ref={animation}
@@ -38,7 +38,7 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: 'white'
+        backgroundColor: '#E4CFC2'
     },
     midContainer: {
         bottom: '5%',
@@ -65,13 +65,13 @@ const styles = StyleSheet.create({
         width: 150,
         height: 145,
         alignSelf: 'flex-end',
-        left: '5%',
+        left: '6%',
         bottom: '30%',
     },
     animationStyle: {
         width: 300,
         height: 300,
         alignSelf: 'center',
-        backgroundColor: 'white',
+        backgroundColor: '#E4CFC2',
     }
 })

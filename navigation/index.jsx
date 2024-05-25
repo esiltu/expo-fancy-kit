@@ -13,7 +13,7 @@ export default function RootStack() {
   useEffect(() => {
     setTimeout(() => {
       setIsShowSplash(false)
-    }, 6000)
+    }, 100000000)
   })
 
   return (
