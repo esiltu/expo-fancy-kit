@@ -38,7 +38,7 @@ export default function SplashScreen() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#dff9fb'
+        backgroundColor: 'white'
     },
     midContainer: {
         bottom: '5%',
@@ -72,6 +72,6 @@ const styles = StyleSheet.create({
         width: 300,
         height: 300,
         alignSelf: 'center',
-        backgroundColor: '#dff9fb',
+        backgroundColor: 'white',
     }
 })
