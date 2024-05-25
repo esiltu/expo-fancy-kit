@@ -22,3 +22,7 @@ Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [Yarn](https://yarnpkg.com/)
+
+### Preview
+https://github.com/esiltu/expo-fancy-kit/assets/76232704/68fb8222-4259-4565-8606-4f23c8edd330
+
