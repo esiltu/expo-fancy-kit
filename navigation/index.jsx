@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 import Home from '../screens/Home';
 import SplashScreen from '../screens/SplashScreen';
+import OnboardingPage from '../screens/Onboarding';
 
 const Stack = createStackNavigator();
 
@@ -22,7 +23,10 @@ export default function RootStack() {
         {isShowSplash ?
           <Stack.Screen name='SplashScreen' component={SplashScreen} options={{ headerShown: false }} />
           :
-          <Stack.Screen name='Home' component={Home} options={{ headerShown: false }} />
+          <>
+            <Stack.Screen name='Onboarding' component={OnboardingPage} options={{ headerShown: false }} />
+            <Stack.Screen name='Home' component={Home} options={{ headerShown: false }} />
+          </>
         }
       </Stack.Navigator>
     </NavigationContainer>
