@@ -24,5 +24,4 @@ Make sure you have the following installed:
 - [Yarn](https://yarnpkg.com/)
 
 ### Preview
-https://github.com/esiltu/expo-fancy-kit/assets/76232704/68fb8222-4259-4565-8606-4f23c8edd330
-
+https://github.com/esiltu/expo-fancy-kit/assets/76232704/4bb3ece0-1241-40e4-b564-061fdb02b622
