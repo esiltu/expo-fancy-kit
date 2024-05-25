@@ -3,7 +3,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.container}>
             <View>
                 <Text>Welcome on the Home page!</Text>
             </View>
@@ -13,4 +13,9 @@ const Home = () => {
 
 export default Home
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#dff9fb'
+    },
+})
